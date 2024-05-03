@@ -1,0 +1,422 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.background {
+  background-color: rgb(66, 64, 64);
+  padding: 3px;
+}
+.bcolor{
+  color:blue;
+}
+
+.bgc{
+  background-color: rgb(203, 187, 187);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 30px; /* Add padding to the header */
+}
+
+.welcome {
+  color: white;
+  font-weight: 400;
+}
+
+.account {
+  color:white;
+  display: flex;
+  align-items: start;
+}
+
+.account span {
+  color: white;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+
+.button-container button {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(83, 80, 80);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Add a border to the right of each button except the last one */
+.button-container button:not(:last-child) {
+  border-right: 1px solid white;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  padding-left: 30px; /* Align items vertically */
+}
+
+.secondcontainer{
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+ /* Align items vertically */
+}
+.second{
+  font-weight: 400;
+  padding-top: 30px;
+  margin-right:20px;
+  font-size: 20px;
+}
+
+.heading {
+  color: white;
+  font-weight: 400;
+  margin-right: 20px; /* Add space between name and buttons */
+}
+.second-container{
+  background-color: rgb(255, 255, 255);
+  display:flex;
+  padding-top:20px;
+}
+
+.second-container button {
+  height:40px;
+  width:100px;
+}
+
+.button-container {
+  display: flex;
+  padding-top: 20px;
+}
+
+.second-container button:last-child {
+  margin-left: 30px;
+  height:40px
+}
+
+.filters{
+  height:37px;
+  width:145 0px;
+  background-color: rgb(198, 193, 193);
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 12px;
+  margin-left: 30px;
+}
+
+.filters p:first-child{
+  margin-right: auto;
+}
+
+table {
+  margin-left: 35px;
+  margin-top: 10px;
+ 
+  font-size: 14px;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(235, 214, 214);
+  border-collapse: collapse;
+  padding:5px;
+  width:1450px
+}
+th,
+td:not(:first-child) {
+  border-left: none;
+}
+
+th,
+td:not(:last-child) {
+  border-right:none;
+}
+.items{
+  margin-top: 30px;
+  margin-left: 20px;
+  padding: 10px;
+
+}
+.pagination{
+  display: flex;
+  margin-top: 40px;
+}
+
+.pagination p{
+  margin-top: 40px;
+  margin-left: 36px;
+  gap:6px;
+  font-size: 14px;
+  color:gray;
+
+}
+.buttons{
+  margin-left: 900px;
+  margin-bottom: 2px;
+}
+
+.buttons button{
+  height: 40px;
+  width: 55px;
+}
+.footer{
+  height: 100px;
+  background-color:gray;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color:white;
+
+}
+.footer-details{
+  display: flex;
+  margin-left:10px;
+  padding-top: 20px;
+
+}
+.footer-details span{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.footer-details p:last-child{
+  margin-left: 1000px;
+  
+}
+
+.copy p:nth-child(2){
+  padding-left: 21px;
+}
+.copy p:nth-child(3){
+  padding-left: 21px;
+}
+.copy p:nth-child(4){
+  padding-left: 21px;
+}
+.copy p:last-child{
+  margin-left: 610px;
+}
+
+
+
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.enroll-form {
+  display: flex;
+  justify-content: space-between;
+}
+.border-form {
+  border: 1px solid black;
+  margin: 30px;
+  box-shadow: 0px 2px 2px 0px rgba(128, 128, 128, 0.661);
+}
+.required {
+  padding-right: 20px;
+}
+.plus-symbol {
+  background-color: #cfcaca; /* Adjust background color as needed */
+  padding: 5px;
+  height: 30px;
+  border-radius: 3px;
+  margin: 10px;
+  width: 25px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.dual-modify {
+  margin-left: auto;
+  color: hsla(240, 100%, 50%, 0.628);
+  padding-right: 50px;
+}
+.section {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.form-row {
+  margin-bottom: 10px;
+  padding: 5px;
+  display: flex;
+}
+
+.form-row label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.boxcolor{
+  background-color: rgb(244, 238, 238);
+}
+
+.boxcolor1{
+  background-color: rgb(235, 225, 225);
+}
+.enrollButtons {
+  display: flex;
+  justify-content: space-between;
+}
+.verify {
+  color: white;
+  background-color: rgb(37, 153, 212);
+  border: none;
+  width: 15vw;
+  height: 30px;
+  border-radius: 0px;
+  padding: 5px;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.cancel {
+  color: black;
+  cursor: pointer;
+  border-color: rgba(130, 128, 128, 0.803);
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.head {
+  padding-left: 10%;
+  font-weight: bold;
+}
+.heade {
+  padding-left: 20px;
+}
+.start {
+  color: red;
+  padding-right: 10px;
+}
+
+.names {
+  display: flex;
+}
+.inputdata {
+  padding-right: 3px;
+  padding-left: 2px;
+  text-align: left;
+  
+}
+
+.form-head-cmplt{
+    color: slateblue;
+}
+.completed{
+    padding: 10px;
+    
+}
+.completed-forms{
+    border: 2px solid slateblue;
+    width: max-content;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.select{
+  width:300px;
+  padding: 3px;
+  margin-top: 4px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.select-2{
+  width: 600px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  padding: 3px;
+  height: 40px;
+}
+
+.select-3{
+  width: 200px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  padding: 3px;
+  height: 40px;
+
+}
+.boxspace{
+  padding: 10px;
+}
+
+.dobbox{
+  width: 200px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  padding: 3px;
+  height: 40px;
+
+}
+.spaces{
+margin-left: 7px;
+}
+
+.weight{
+  font-weight: 1000;
+  margin-left: 10px;
+}
+
+.spacing{
+  width: 600px;
+  height: 30px;
+  margin-right: 10px;
+  padding: 5px;
+}
+.separate{
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.secondary{
+  margin-left: 10px;
+  height:30px;
+  padding: 5px;
+}
+
+.button1{
+  height:30px;
+  width: 30px;
+  background-color: rgb(239, 233, 233);
+  padding: 8px;
+  font-size: 20px;
+  margin-left: 10px;
+
+}
+
+.ending{
+  margin-left: 60px;
+  font-weight: 800;
+
+}
+
+.ending1{
+  padding: 5px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+.ending2{
+  margin-left: 12px;
+  padding: 5px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
